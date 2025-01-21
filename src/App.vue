@@ -1,9 +1,9 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
+import LandingPage from "./LandingPage.vue";
 </script>
 
 <template>
-  <HelloWorld msg="Hello World" />
+  <LandingPage />
 </template>
 
 <style scoped></style>
