@@ -94,7 +94,7 @@ onMounted(() => {
 <style scoped>
 @font-face {
   font-family: Basement;
-  src: url("../assets//fonts/BasementGrotesque-Black_v1.202.otf");
+  src: url("../assets/fonts/BasementGrotesque-Black_v1.202.otf");
 }
 .landing-page {
   min-height: 100vh;
