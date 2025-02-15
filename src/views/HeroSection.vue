@@ -1,5 +1,6 @@
 <script setup>
 import { onMounted, ref } from "vue";
+import Navbar from "../components/Navbar.vue";
 const canvasRef = ref(null);
 const particles = ref([]);
 
@@ -57,19 +58,7 @@ onMounted(() => {
 <template>
   <div class="landing-page">
     <canvas ref="canvasRef" class="particles"></canvas>
-    <nav class="flex justify-between w-full p-4">
-      <div>GDGC</div>
-      <div class="flex gap-8">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Tracks</a>
-        <a href="#">FAQ</a>
-        <a href="#">Contact</a>
-      </div>
-      <div>
-        <button>Register</button>
-      </div>
-    </nav>
+    <Navbar />
 
     <div class="content">
       <div class="header">GDGC UIET Presents ⚡️</div>
@@ -87,11 +76,16 @@ onMounted(() => {
       <button class="register-button">Register Now</button>
     </div>
 
-    <div class="ellipse"></div>
+    <!-- <div class="ellipse"></div> -->
   </div>
 </template>
 
-<style scoped>
+<style>
+:root {
+  --gradient-start: #3b1a7e;
+  --gradient-middle: #280da1;
+  --gradient-end: #000000;
+}
 @font-face {
   font-family: Basement;
   src: url("../assets/fonts/BasementGrotesque-Black_v1.202.otf");
@@ -100,9 +94,9 @@ onMounted(() => {
   min-height: 100vh;
   background: radial-gradient(
     circle at top,
-    #3b1a7e 0%,
-    #280da1 50%,
-    #000000 100%
+    var(--gradient-start) 0%,
+    var(--gradient-middle) 50%,
+    var(--gradient-end) 100%
   );
   color: white;
   position: relative;
