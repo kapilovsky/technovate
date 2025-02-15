@@ -180,7 +180,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-200px);
   }
 }
 
@@ -217,12 +217,12 @@ import Navbar from "../components/Navbar.vue";
 // Optional: Add dynamic particles
 onMounted(() => {
   const section = document.querySelector(".about-section");
-  for (let i = 0; i < 20; i++) {
+  for (let i = 0; i < 100; i++) {
     const particle = document.createElement("div");
     particle.className = "particle";
     particle.style.left = `${Math.random() * 100}%`;
     particle.style.top = `${Math.random() * 100}%`;
-    particle.style.animationDelay = `${Math.random() * 4}s`;
+    particle.style.animationDelay = `${Math.random() * 6}s`;
     section.appendChild(particle);
   }
 });
