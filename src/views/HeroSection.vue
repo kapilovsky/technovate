@@ -73,7 +73,9 @@ onMounted(() => {
         become constellations in the universe of possibilities
       </p>
 
-      <button class="register-button">Register Now</button>
+      <RouterLink to="/register" class="register-button"
+        >Register Now</RouterLink
+      >
     </div>
 
     <!-- <div class="ellipse"></div> -->
@@ -161,7 +163,7 @@ nav {
   line-height: 1.6;
 }
 
-.register-button {
+/* .register-button {
   padding: 0.8rem 1.5rem;
   font-family: Inter;
   font-weight: 600;
@@ -171,7 +173,7 @@ nav {
   color: black;
   cursor: pointer;
   transition: opacity 0.2s ease;
-}
+} */
 
 button:hover {
   opacity: 0.9;
@@ -193,5 +195,32 @@ button:hover {
   border-radius: 50% 50% 0 0;
   filter: blur(30px);
   box-shadow: 0 -10px 50px rgba(0, 26, 255, 0.2);
+}
+
+.register-button {
+  background: rgba(179, 191, 255, 0.1);
+  color: #9eaeff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 1rem auto;
+  font-weight: 600;
+  border: 2px solid rgba(179, 191, 255, 0.2);
+  animation: pulsee 2s infinite;
+  text-align: center;
+  font-family: Instrument Serif;
+  font-size: 1.1em;
+}
+
+@keyframes pulsee {
+  0% {
+    box-shadow: 0 0 0 0 rgba(160, 176, 255, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(255, 112, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 112, 0, 0);
+  }
 }
 </style>

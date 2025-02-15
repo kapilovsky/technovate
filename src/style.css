@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Neue Montreal;
+  src: url(../src/assets/fonts/NeueMontreal-Medium.otf);
+}
 body {
   background-color: #080808;
   font-family: Neue Montreal;
