@@ -9,24 +9,24 @@
       ></div>
 
       <div class="flex flex-col gap-8 content">
-        <div class="flex gap-8 text-left">
+        <div class="flex sm:flex-row flex-col gap-8 text-left">
           <div
-            class="bg-black/20 backdrop-blur-sm flex-[3] p-4 px-6 rounded-xl"
+            class="bg-black/20 backdrop-blur-sm flex-[3] p-4 px-6 rounded-2xl"
           >
             UIET Chandigarh presents TECHNOVATE’25, a thrilling 24-hour
             hackathon powered by the GDGC Club! <br />
             This year’s theme, Space and Cosmos
-            <span class="text-xl gradient-span px-3 rounded-xl">✨</span>,
+            <span class="text-xl gradient-span px-3 rounded-2xl">✨</span>,
             challenges you to innovate and code solutions inspired by the
             vastness of the universe. Get ready to push the boundaries of your
             imagination!
           </div>
           <div
-            class="bg-black/20 backdrop-blur-sm flex-[1.5] p-4 px-6 rounded-xl"
+            class="bg-black/20 backdrop-blur-sm flex-[1.5] p-4 px-6 rounded-2xl"
           >
             <h1 class="text-xl font-bold mb-2">
               Event Highlights
-              <span class="text-xl gradient-span px-3 rounded-xl">⚡</span>
+              <span class="text-xl gradient-span px-3 rounded-2xl">⚡</span>
             </h1>
             <ul class="list-disc list-inside">
               <li>24 Hours of Innovation</li>
@@ -36,13 +36,13 @@
             </ul>
           </div>
         </div>
-        <div class="flex gap-8 text-left">
-          <div class="bg-black/20 backdrop-blur-sm p-4 px-6 rounded-xl">
+        <div class="flex sm:flex-row flex-col gap-8 text-left">
+          <div class="bg-black/20 backdrop-blur-sm p-4 px-6 rounded-2xl">
             <h1 class="text-xl font-bold mb-2">Why Participate?</h1>
             Launch your ideas into orbit, collaborate with fellow innovators,
             and create products that will revolutionize the digital universe.
           </div>
-          <div class="bg-black/20 backdrop-blur-sm p-4 px-6 rounded-xl">
+          <div class="bg-black/20 backdrop-blur-sm p-4 px-6 rounded-2xl">
             <h1 class="text-xl font-bold mb-2">Who Can Participate?</h1>
             Open to all university students passionate about technology,
             innovation, and creating stellar products .

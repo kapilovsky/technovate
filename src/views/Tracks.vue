@@ -11,7 +11,7 @@
         class="w-24 h-1 bg-gradient-to-r from-[#f8f8f8] to-blue-500 mx-auto rounded-full mb-2"
       ></div>
 
-      <div class="flex flex-row justify-center gap-8 content">
+      <div class="flex sm:flex-row flex-col justify-center gap-8 content">
         <!-- Blockchain Card -->
         <div class="track-card blockchain-card">
           <div class="card-icon">🔗</div>
@@ -73,12 +73,12 @@
 .tracks-section {
   min-height: 100vh;
   /* background: linear-gradient(to bottom, #000000, #1a0846, #280da1d1); */
-  /* background: radial-gradient(
-      circle at bottom,
-      var(--gradient-start) 0%,
-      var(--gradient-middle) 50%,
-      var(--gradient-end) 100%
-    ); */
+  background: radial-gradient(
+    circle at top,
+    var(--gradient-start) 0%,
+    var(--gradient-middle) 50%,
+    var(--gradient-end) 100%
+  );
   position: relative;
   overflow: hidden;
 }
@@ -131,7 +131,7 @@
   left: 0;
   width: 100%;
   height: 200px;
-  background: linear-gradient(to top, transparent, hwb(251 2% 72%));
+  background: linear-gradient(to top, transparent, rgb(17, 5, 71));
   pointer-events: none;
 }
 
@@ -182,30 +182,10 @@
   background: radial-gradient(
       circle at 20% 30%,
       rgba(138, 43, 226, 0.2),
-      transparent 40%
+      transparent 20%
     ),
     radial-gradient(circle at 80% 70%, rgba(65, 105, 225, 0.2), transparent 40%);
   pointer-events: none;
-}
-
-/* Optional: Add animated particles */
-@keyframes particle-float {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
-}
-
-.particle {
-  position: absolute;
-  width: 2px;
-  height: 2px;
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
-  animation: particle-float 4s infinite ease-in-out;
 }
 
 .content {
@@ -228,13 +208,13 @@
   width: 420px;
   min-height: 400px;
   /* background: rgba(255, 255, 255, 0.03); */
-  /* backdrop-filter: blur(5px); */
+  backdrop-filter: blur(5px);
   border-radius: 20px;
   padding: 2rem;
   position: relative;
   overflow: hidden;
   transition: all 0.3s ease;
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .track-card:hover {

@@ -63,7 +63,7 @@ onMounted(() => {
     <div class="content">
       <div class="header">GDGC UIET Presents ⚡️</div>
 
-      <h1 class="title">
+      <h1 class="title text-5xl sm:text-6xl">
         Technovate Hackathon<br />
         <span class="italic">2025</span>
       </h1>
@@ -137,7 +137,6 @@ nav {
 }
 
 .title {
-  font-size: 3.5rem;
   font-family: Basement;
   font-weight: bold;
   letter-spacing: -4px;
@@ -152,8 +151,9 @@ nav {
 
 .italic {
   font-style: italic;
-  font-family: "garamond";
   font-weight: normal;
+  font-family: Instrument Serif;
+  letter-spacing: -1px;
 }
 
 .subtitle {
