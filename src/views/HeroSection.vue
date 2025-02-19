@@ -68,14 +68,24 @@ onMounted(() => {
         <span class="italic">2025</span>
       </h1>
 
-      <p class="subtitle">
+      <p class="subtitle mb-8">
         Embark on a cosmic journey of innovation where your products <br />
         become constellations in the universe of possibilities
       </p>
 
-      <RouterLink to="/register" class="register-button"
+      <!-- <RouterLink to="/register" class="register-button"
         >Register Now</RouterLink
+      > -->
+
+      <p class="subtitle text-[#ff7000]">Problem Statements are out now!</p>
+      <RouterLink to="/problems" class="register-button"
+        >Problem Statements</RouterLink
       >
+
+      <p class="subtitle">
+        This year's theme is Product Universe. <br />
+        #BuildProductsNotProjects
+      </p>
     </div>
 
     <!-- <div class="ellipse"></div> -->
@@ -159,7 +169,6 @@ nav {
 .subtitle {
   font-size: 1.1rem;
   opacity: 0.7;
-  margin-bottom: 2rem;
   line-height: 1.6;
 }
 
@@ -198,14 +207,14 @@ button:hover {
 }
 
 .register-button {
-  background: rgba(179, 191, 255, 0.1);
-  color: #9eaeff;
+  background: rgba(255, 112, 0, 0.1);
+  color: #ff7000;
   padding: 0.5rem 1.5rem;
   border-radius: 50px;
   display: inline-block;
   margin: 1rem auto;
   font-weight: 600;
-  border: 2px solid rgba(179, 191, 255, 0.2);
+  border: 1px solid rgba(255, 112, 0, 0.2);
   animation: pulsee 2s infinite;
   text-align: center;
   font-family: Instrument Serif;
@@ -214,7 +223,7 @@ button:hover {
 
 @keyframes pulsee {
   0% {
-    box-shadow: 0 0 0 0 rgba(160, 176, 255, 0.4);
+    box-shadow: 0 0 0 0 rgba(255, 112, 0, 0.4);
   }
   70% {
     box-shadow: 0 0 0 10px rgba(255, 112, 0, 0);
