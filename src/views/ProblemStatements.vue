@@ -5,7 +5,7 @@
     <div
       class="content-wrapper flex flex-col justify-center mt-16 max-w-7xl mx-auto"
     >
-      <div class="status-badge">Hackathon is Live</div>
+      <div class="status-badge">Hackathon has ended</div>
       <div class="heading text-5xl m-8">Problem Statements</div>
 
       <a class="text-white/70 mb-4" target="_blank" :href="rulebook"
