@@ -937,6 +937,11 @@ video {
   font-style: italic;
 }
 
+.text-\[\#ff7000\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 112 0 / var(--tw-text-opacity, 1));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
@@ -948,24 +953,6 @@ video {
 
 .text-white\/90 {
   color: rgb(255 255 255 / 0.9);
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[\#ff\] {
-  color: #ff;
-}
-
-.text-\[\#ffffff\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#ff7000\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 112 0 / var(--tw-text-opacity, 1));
 }
 
 .opacity-0 {

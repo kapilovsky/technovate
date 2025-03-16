@@ -10,6 +10,7 @@
         <RouterLink active-class="active" to="/about">About</RouterLink>
         <RouterLink active-class="active" to="/tracks">Tracks</RouterLink>
         <RouterLink active-class="active" to="/faqs">FAQs</RouterLink>
+        <RouterLink active-class="active" to="/gallery">Gallery</RouterLink>
         <RouterLink active-class="active" to="/contact">Contact Us</RouterLink>
       </div>
 

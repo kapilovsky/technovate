@@ -78,7 +78,7 @@ onMounted(() => {
       > -->
 
       <!-- <p class="subtitle text-[#ff7000]">Problem Statements are out now!</p> -->
-      <RouterLink to="/problems" class="register-button uppercase"
+      <RouterLink to="/" class="register-button uppercase"
         >Hackathon has ended</RouterLink
       >
 
