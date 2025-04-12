@@ -47,6 +47,12 @@ const router = createRouter({
       name: "gallery",
       component: () => import("../views/Gallery.vue"),
     },
+    {
+      path: "/slider",
+      name: "slider",
+      component: () => import("../views/Slider.vue"),
+
+    }
   ],
 });
 
